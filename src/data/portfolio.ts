@@ -41,7 +41,7 @@ export const socialLinks = [
   },
   {
     label: "LinkedIn",
-    href: "www.linkedin.com/in/sazzad-hossain-956282394",
+    href: "https://www.linkedin.com/in/sazzad-hossain-956282394/",
     icon: "linkedin",
   },
   // {
