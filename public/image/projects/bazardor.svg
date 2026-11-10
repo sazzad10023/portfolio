@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#0891B2"/>
+    </linearGradient>
+    <linearGradient id="fruit" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A3E635"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="fish" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#0E7490"/>
+    </linearGradient>
+    <linearGradient id="rice" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="shadow" x="60" y="40" width="1080" height="720" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#064E3B" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="90" cy="90" r="250" fill="#A7F3D0" opacity="0.22"/>
+  <circle cx="1120" cy="720" r="280" fill="#22D3EE" opacity="0.18"/>
+  <g filter="url(#shadow)">
+    <rect x="130" y="110" width="940" height="580" rx="30" fill="#FFFFFF"/>
+    <rect x="130" y="110" width="940" height="62" rx="30" fill="#ECFDF5"/>
+    <rect x="130" y="142" width="940" height="30" fill="#ECFDF5"/>
+    <circle cx="166" cy="141" r="7" fill="#34D399"/>
+    <circle cx="190" cy="141" r="7" fill="#FBBF24"/>
+    <circle cx="214" cy="141" r="7" fill="#FB7185"/>
+    <rect x="252" y="129" width="320" height="24" rx="12" fill="#A7F3D0"/>
+    <text x="184" y="220" fill="#064E3B" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Today&apos;s market</text>
+    <text x="184" y="248" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15">Compare daily prices across local markets</text>
+    <rect x="184" y="278" width="280" height="48" rx="14" fill="#F0FDFA"/>
+    <circle cx="212" cy="302" r="9" stroke="#14B8A6" stroke-width="3"/>
+    <path d="M226 302h16" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/>
+    <text x="254" y="307" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="15">Search commodities</text>
+    <rect x="484" y="278" width="144" height="48" rx="14" fill="#0F766E"/>
+    <text x="522" y="307" fill="#ECFDF5" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Compare</text>
+    <g>
+      <rect x="184" y="356" width="256" height="200" rx="20" fill="#F0FDFA"/>
+      <rect x="204" y="376" width="106" height="106" rx="18" fill="url(#rice)"/>
+      <text x="204" y="512" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Rice</text>
+      <text x="204" y="536" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="13">Min ৳62 · Max ৳78</text>
+      <text x="404" y="512" fill="#0F766E" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">৳68/kg</text>
+    </g>
+    <g>
+      <rect x="460" y="356" width="256" height="200" rx="20" fill="#F0FDFA"/>
+      <rect x="480" y="376" width="106" height="106" rx="18" fill="url(#fish)"/>
+      <text x="480" y="512" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Fish</text>
+      <text x="480" y="536" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="13">Min ৳240 · Max ৳310</text>
+      <text x="680" y="512" fill="#0F766E" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">৳285/kg</text>
+    </g>
+    <g>
+      <rect x="736" y="356" width="256" height="200" rx="20" fill="#F0FDFA"/>
+      <rect x="756" y="376" width="106" height="106" rx="18" fill="url(#fruit)"/>
+      <text x="756" y="512" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Vegetables</text>
+      <text x="756" y="536" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="13">Min ৳28 · Max ৳46</text>
+      <text x="956" y="512" fill="#0F766E" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">৳36/kg</text>
+    </g>
+    <rect x="184" y="584" width="808" height="74" rx="18" fill="#F8FAFC"/>
+    <text x="208" y="615" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1">PRICE TREND</text>
+    <path d="M208 642C270 642 300 622 360 628C420 634 448 610 508 616C568 622 604 596 664 604C724 612 770 588 828 594C876 599 926 580 968 584" stroke="#14B8A6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="600" y="758" text-anchor="middle" fill="#ECFDF5" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="7">BAZARDOR</text>
+</svg>

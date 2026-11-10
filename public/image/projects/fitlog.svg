@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185"/>
+      <stop offset="0.52" stop-color="#F43F5E"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="420" y1="90" x2="780" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FFE4E6"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <filter id="shadow" x="330" y="30" width="540" height="740" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#7F1D1D" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="260" fill="#FECDD3" opacity="0.28"/>
+  <circle cx="1090" cy="690" r="290" fill="#FDBA74" opacity="0.22"/>
+  <g filter="url(#shadow)">
+    <rect x="420" y="80" width="360" height="640" rx="48" fill="#0F172A"/>
+    <rect x="432" y="92" width="336" height="616" rx="38" fill="url(#screen)"/>
+    <rect x="552" y="104" width="96" height="18" rx="9" fill="#0F172A"/>
+    <text x="464" y="178" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">FitLog</text>
+    <text x="464" y="204" fill="#9F1239" font-family="Arial, Helvetica, sans-serif" font-size="14">Your daily movement</text>
+    <circle cx="660" cy="176" r="22" fill="#FFFFFF"/>
+    <circle cx="660" cy="176" r="9" fill="#FB7185"/>
+    <rect x="464" y="234" width="272" height="148" rx="24" fill="url(#card)"/>
+    <text x="486" y="272" fill="#FFE4E6" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1">TODAY&apos;S PLAN</text>
+    <text x="486" y="318" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">3 / 5</text>
+    <text x="486" y="344" fill="#FFE4E6" font-family="Arial, Helvetica, sans-serif" font-size="14">workouts completed</text>
+    <rect x="486" y="358" width="228" height="8" rx="4" fill="#FFFFFF" opacity="0.28"/>
+    <rect x="486" y="358" width="136" height="8" rx="4" fill="#FFFFFF"/>
+    <text x="464" y="424" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Next up</text>
+    <g>
+      <rect x="464" y="442" width="272" height="76" rx="18" fill="#FFFFFF"/>
+      <rect x="480" y="458" width="44" height="44" rx="14" fill="#FFE4E6"/>
+      <path d="M494 474h16M502 466v16" stroke="#F43F5E" stroke-width="3" stroke-linecap="round"/>
+      <text x="540" y="474" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Upper body strength</text>
+      <text x="540" y="496" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="12">32 min · 240 kcal</text>
+    </g>
+    <g>
+      <rect x="464" y="530" width="272" height="76" rx="18" fill="#FFFFFF"/>
+      <rect x="480" y="546" width="44" height="44" rx="14" fill="#DCFCE7"/>
+      <path d="M494 568l6 6 12-13" stroke="#22C55E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="540" y="562" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Morning walk</text>
+      <text x="540" y="584" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="12">Completed · 18 min</text>
+    </g>
+    <rect x="464" y="626" width="272" height="48" rx="16" fill="#0F172A"/>
+    <text x="536" y="656" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Add a workout</text>
+  </g>
+  <text x="600" y="758" text-anchor="middle" fill="#FFF7ED" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="7">FITLOG</text>
+</svg>
