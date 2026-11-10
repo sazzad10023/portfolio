@@ -100,7 +100,7 @@ export function Hero() {
                 className="object-cover object-top"
               />
               <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-slate-950/60 via-slate-950/10 to-transparent" />
-
+{/* 
               <div className="absolute inset-x-3 bottom-3 rounded-2xl border border-white/15 bg-slate-950/50 p-4 text-white backdrop-blur-md">
                 <div className="flex items-center justify-between gap-4">
                   <div>
@@ -119,7 +119,7 @@ export function Hero() {
                   <MapPinIcon className="h-3.5 w-3.5" />
                   {profile.location}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
